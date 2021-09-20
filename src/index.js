@@ -1,1 +1,5 @@
-console.log("hello");
+function greetUser(name) {
+  console.log(`Hello ${name}`);
+}
+
+greetUser("anonymous");
